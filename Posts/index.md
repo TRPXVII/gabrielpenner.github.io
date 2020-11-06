@@ -8,4 +8,4 @@ layout: default
 
 ### Hello World 3
 
-This is a test
+[This is a test link](./testpost/).
