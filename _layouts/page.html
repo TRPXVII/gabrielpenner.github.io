@@ -26,7 +26,7 @@
           <li class="title"><a href="{{ site.baseurl }}/Books/">Book Outlines</a></li>
 	  <li class="title"><a href="https://github.com/TRPXVII">Projects</a></li>
           <li class="title"><a href="{{ site.baseurl }}/Posts/">Posts</a></li>
-	  <li class="title"><a href="{{ site.baseurl }}">Gabriel Penner</a></li>
+	  <li class="title"><a href="{{ site.baseurl }}">Home</a></li>
 	</nav>
       </div><!-- end header -->
     
@@ -34,8 +34,7 @@
 
       <section>
         <div id="title">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-          <p>{{ site.description | default: site.github.project_tagline }}</p>
+          <h1>{{ page.title | default: site.github.repository_name }}</h1>
           <hr>
         </div>
 
