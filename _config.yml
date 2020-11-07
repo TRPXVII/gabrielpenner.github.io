@@ -3,4 +3,3 @@ description: Personal musings, projects, books, and more.
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-midnight
-baseurl: "/"
