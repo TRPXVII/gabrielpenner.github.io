@@ -4,13 +4,13 @@
 
 body {
   padding:0px 0 20px 0px;
-  margin: 0px;
+  margin: auto;
   font:14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#f0e7d5;
   font-weight: normal;
   background: #252525;
   background-attachment: fixed !important;
-  background: linear-gradient(#2a2a29, #1c1c1c);
+  background: linear-gradient(#1c1c1c, #000000);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -76,10 +76,9 @@ strong {
 }
 
 .wrapper {
-  max-width: 60%;
   margin:0 auto;
   position:relative;
-  padding: 0 20px;
+  padding: 0 10% 0 10%;
 }
 
 section img {
@@ -217,10 +216,9 @@ dt {
 }
 
 section {
-  max-width:75%;
-  padding: 30px 0px 50px 0px;
+  padding: 20px 50px 20px 50px;
   margin: 20px auto;
-  margin-top: 70px;
+  margin-top: 120px;
 
   #title {
     border: 0;
