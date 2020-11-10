@@ -152,7 +152,6 @@ dt {
   font-weight: normal;
 }
 
-
 #header {
   z-index: 100;
   left:0;
@@ -240,6 +239,7 @@ section {
       font-weight: normal;
       font-size: 18px;
       text-align: center;
+      padding: 10px 0 0 0;
     }
 
     .credits {
@@ -259,6 +259,30 @@ section {
     }
 
   }
+}
+
+#about {
+
+   background-color: #f6f600;
+
+   section {
+       margin-top: 20px;
+       max-width: 100%;
+       color: black;
+       -webkit-text-stroke-width: thin;
+   }
+
+   h2 {
+       color: black;
+   }
+
+   div {
+       padding: 0 10% 0 10%;
+   }
+
+   p{
+       padding: 10px 0 0 0;
+   }
 }
 
 @media print, screen and (max-width: 720px) {
