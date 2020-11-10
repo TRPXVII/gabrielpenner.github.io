@@ -12,10 +12,7 @@ layout: default
  
  - Sir Isaac Newton (probably quoted from somewhere else)
 
-
-
-
-
+\n \n \n
 ## About
 
 Learning, understanding, and knowledge are important to me, but it wasn't always that way. In my high school years I didn't care much for education. It took a few years of military service to change my mind and set me on a different path.
