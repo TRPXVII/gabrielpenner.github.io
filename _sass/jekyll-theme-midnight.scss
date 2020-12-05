@@ -68,7 +68,7 @@ a small {
 }
 
 ul{
-  list-style-image:url('../images/bullet.png');
+  list-style-image:url('../images/bullet.png'):
 }
 
 strong {
@@ -81,6 +81,17 @@ strong {
   position:relative;
   padding: 0 10% 0 10%;
 }
+
+.ulist {
+  max-width: 60%;
+  margin: auto;
+}
+
+   .ldate {
+     float: right;
+     margin: 0 0 0 20px;
+     list-style: none;
+    }
 
 section img {
   max-width: 100%;
