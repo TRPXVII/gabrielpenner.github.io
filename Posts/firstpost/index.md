@@ -1,15 +1,15 @@
 ---
 layout: page
+title: 0x1 - push ebp
 ---
 
-# The first of many!
+# The First of Many!
 
-Over the last couple months now I've been either working on this website or researching which platform to use to host it. Ultimately, I chose Github pages because it was free and flexible to experiement with. The free part is important because I still don't know what I'm doing. The only reason I was able to create this website is because:
+Over the last couple months I've been working on this website and researching platforms on which to host it. I ultimately chose Github pages because it was free and flexible to experiement with. The free part is important because I still don't know what I'm doing. 
 
-1) I used a theme that I then modified, so I had a starting place,
+My purpose here is to express my own thoughts and ideas on different topics, write about books I've read to encourage others to read (or avoid) them, and link my various platforms in one place as a sort of professional portfolio.
 
-2) I took a web design course in my first go-round in undergrad and managed to remember enough HTML and CSS to modify the site.
+I've been editing the site in Vim on the Ubuntu Subsystem in Windows Terminal. Everything is a learning process here from Vim to Jekyll and HTML. As time goes on I'm sure I will make changes to this site, but for now here I am.
 
-I've been editing the site in Vim on the Ubuntu Subsystem in Windows Terminal. I'm forcing myself to learn Vim and the various keybindings which have, in some cases, made things faster and easier. Really everything here has been a learning experience, and as time goes on I'm sure I will make changes to this site.
+This is my first and only post for now. Until next time. 
 
-This is my first and only post for now, and we'll see where this goes. 
