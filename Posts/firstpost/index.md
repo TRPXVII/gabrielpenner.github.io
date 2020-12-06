@@ -5,7 +5,7 @@ title: 0x1 - push ebp
 
 # The First of Many!
 
-ver the last couple months, I've been working on this website and researching platforms on which to host it. I ultimately chose Github pages because it was free and flexible to experiment with. The free part is important because I still don't know what I'm doing.
+Over the last couple months, I've been working on this website and researching platforms on which to host it. I ultimately chose Github pages because it was free and flexible to experiment with. The free part is important because I still don't know what I'm doing.
 
 My purpose here is to express my own thoughts and ideas on different topics, write about books I've read to encourage others to read (or avoid) them, and link my various platforms in one place as a sort of professional portfolio.
 
