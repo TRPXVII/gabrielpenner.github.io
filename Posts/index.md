@@ -2,4 +2,4 @@
 layout: default
 ---
 
-[First Post!](./firstpost/).
+[First Post!](./firstpost/)
