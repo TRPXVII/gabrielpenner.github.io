@@ -1,5 +1,5 @@
 ---
-layout: default
-title: Book Outline
+layout: page
+title: Book Outlines
 ---
 
