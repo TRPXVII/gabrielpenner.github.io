@@ -11,12 +11,12 @@ body {
   background: #252525;
   background-attachment: fixed !important;
   background: linear-gradient(#101820FF, #15191E);
-  max-width: 70%;
+  max-width: 60%;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color:#e8e8e8;
-  margin:0 0 10px;
+  margin:0 0 20px;
   font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
@@ -83,8 +83,9 @@ strong {
 }
 
 .ulist {
-  max-width: 60%;
+  max-width: 50%;
   margin: auto;
+  font-size: 20px;
 }
 
    .ldate {
