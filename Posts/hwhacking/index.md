@@ -32,7 +32,7 @@ For the next part, actually connecting to the UART, I used an old laptop running
 <img src="https://www.gabrielpenner.com/Posts/hwhacking/images/router_end.jpg" alt="View of router showing serial connection to UART" width="845" height="633">
 
 
-Okay, so now your device is connected to the USB, the USB to the hub, and the hub to your computer. Now you need a way to retrieve the data. Minicom is a serial communication and terminal emulator that we can use to read information from the serial connection. When you turn on the hub on Linux you get a device called \dev\ttyUSB0 which can be found by running dmesg. Minicom allows you to configure settings for the serial device you will be communicating with along with the baud rate settings (defaults shown).
+Okay, so now your device is connected to the USB, the USB to the hub, and the hub to your computer. Now you need a way to retrieve the data. Minicom is a serial communication and terminal emulator that we can use to read information from the serial connection. When you turn on the hub on Linux you get a device called /dev/ttyUSB0 which can be found by running dmesg. Minicom allows you to configure settings for the serial device you will be communicating with along with the baud rate settings (defaults shown).
 
 
 <img src="https://www.gabrielpenner.com/Posts/hwhacking/images/minicom_terminal.jpg" alt="Minicom terminal showing configuration menu" width="867" height="645">
