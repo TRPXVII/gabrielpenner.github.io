@@ -15,35 +15,37 @@ My goal here was to see if I could make heads or tails of the process of identif
 
 You might be able to see in the image above the 4 pins at the top right of the device. That is the UART serial connection labeled "J2" and has 4 pins with one... missing? I spent some time testing the pins and figuring out the correct order (more on that below), and what I discovered the pin order to be is:
 
-| NO.          | PIN               |
-|:-------------|:------------------|
-| 1            | RXD               |
-| 2            | TXD               |
-| 3            | GND               |
-| 4            | No Pin            |
-| 5            | VCC?              |
+| NO. | PIN    |
+|:----|:-------|
+| 1   | RXD    |
+| 2   | TXD    |
+| 3   | GND    |
+| 4   | No Pin |
+| 5   | VCC?   |
 
-![Pins Labeled]https://www.gabrielpenner.com/Posts/hwhacking/images/pin_labeled.jpg)
+![Pins Labeled](https://www.gabrielpenner.com/Posts/hwhacking/images/pin_labeled.jpg)
 
 For the next part, actually connecting to the UART, I used an old laptop running Ubuntu, a [power-cycling USB hub](https://www.amazon.com/Sabrent-4-Port-Individual-Switches-HB-UM43/dp/B00JX1ZS5O/), [a serial-to-USB adapter](https://www.amazon.com/IZOKEE-CP2102-Converter-Adapter-Downloader/dp/B07D6LLX19/), and some [test clips](https://www.amazon.com/JIUWU-Test-Ideal-Electronic-Experiment/dp/B00NHG8Q5U/). The connection to the device requires that you connect RXD to TXD, TXD to RXD, and GND to GND.
 
 ![USB End View](https://www.gabrielpenner.com/Posts/hwhacking/images/usb_end.jpg)
 
-![Router End View](https://www.gabrielpenner.com/Posts/hwhacking/images/router_end.jpg)
+<img src="https://www.gabrielpenner.com/Posts/hwhacking/images/router_end.jpg" alt="View of router showing serial connection to UART" width="1210" height="908">
 
 Okay, so now your device is connected to the USB, the USB to the hub, and the hub to your computer. Now you need a way to retrieve the data. Minicom is a serial communication and terminal emulator that we can use to read information from the serial connection. When you turn on the hub on Linux you get a device called \dev\ttyUSB0 which can be found by running dmesg. Minicom allows you to configure settings for the serial device you will be communicating with along with the baud rate settings (defaults shown).
 
-![Minicom Terminal](https://www.gabrielpenner.com/Posts/hwhacking/images/minicom_terminal.jpg)
+<img src="https://www.gabrielpenner.com/Posts/hwhacking/images/minicom_terminal.jpg" alt="Minicom terminal showing configuration menu" width="867" height"645">
 
 This is where I started to have to figure out how exactly to get the communication I wanted. I had previously attempted to connect to the device on a Windows machine and found that the serial channel was a COM channel. This is something I didn't previously have any experience with, so it took me a few minutes to figure out where to even start looking. I didn't have nearly as much trouble in Linux since dmesg gives you the channel you're looking for. I assume you can also use PuTTY to do this, since it also offers serial connection options (maybe next time).
 
 The issue I had initially with Minicom was I only got garbage back. My first run where I actually saw something was full of random characters, and was obviously not correct. The baud rate at this time was set to 9600 so I tried some other settings. 38400 didn't work either, but once I set the baud rate to 115200... viola! Data!
 
-Before
-![Minicom Trash](https://www.gabrielpenner.com/Posts/hwhacking/images/minicom_trash.png)
+##Before Adjustment
 
-After
-![Minicom Data](https://www.gabrielpenner.com/Posts/hwhacking/images/minicom_data.png)
+<img src="https://www.gabrielpenner.com/Posts/hwhacking/images/minicom_trash.png" alt="Minicom nonsense data from incorrect baud rate" width="558" height="843">
+
+##After Adjustment
+
+<img src="https://www.gabrielpenner.com/Posts/hwhacking/images/minicom_data.png" alt="Minicom actual data with correct baud rate set" width="755" height="1008">
 
 I was amazed to see that I actually got this working! The communication running down the terminal showed the boot up process, and even still contained settings that I had entered into the device a long time ago when I was still using it as a router (rather than a bridge).
 
