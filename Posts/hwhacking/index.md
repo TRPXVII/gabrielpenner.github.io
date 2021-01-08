@@ -7,11 +7,11 @@ The other day I made my first attempt at figuring out how to get started with ha
 
 That being said, I have found lately that I have a lot of extra or broken hardware laying around that I need to take to recycling for disposal. In the meantime, I chose a Zyxel Q1000 router as a candidate for disassembly and evaluation since it is way past its prime and potentially breaking it wasn't going to deter me. For the last several years I had been using the device as a modem and bridge for a router that I had bought separately. After moving away from the DSL provider out here I no longer needed it, and so I decided to use it as my first victim. 
 
-![Q1000](https://www.gabrielpenner.com/Posts/hwhacking/images/q1000z.jpg)
+<img src="https://www.gabrielpenner.com/Posts/hwhacking/images/q1000z.jpg" alt="Q1000Z router image" width="450" height="445">
 
 My goal here was to see if I could make heads or tails of the process of identifying, connecting to, and retrieving serial data from a UART (Universal Asynchronous Receiver-Transmitter) connection on the board itself. Upon opening the case and looking at the device the most prominent feature is the metal case over a Broadcom chip, alongside the wires running across the board to each of the antenna ports.
 
-![Q1000 Open](https://www.gabrielpenner.com/Posts/hwhacking/images/q1000z_open.jpg =300px)
+<img src="https://www.gabrielpenner.com/Posts/hwhacking/images/q1000z_open.jpg" alt="Q1000Z router circuit board" width="755" height="1008">
 
 You might be able to see in the image above the 4 pins at the top right of the device. That is the UART serial connection labeled "J2" and has 4 pins with one... missing? I spent some time testing the pins and figuring out the correct order (more on that below), and what I discovered the pin order to be is:
 
