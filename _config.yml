@@ -1,5 +1,5 @@
-title: Gabriel Penner
-description: Personal musings, projects, books, and more.
-show_downloads: false
+title: gabrielpenner.com
+description: homepage
+show_downloads: true
 google_analytics:
 theme: jekyll-theme-midnight
