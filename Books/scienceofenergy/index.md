@@ -4,7 +4,7 @@ title: The Science of Energy
 ---
 
 
-![Science of Energy Cover](https://gabrielpenner.com/Books/scienceofenergy/images/soeimage.jpg)
+![Science of Energy Cover](http://gabrielpenner.com/Books/scienceofenergy/images/soeimage.jpg)
 
 
 # Summary
