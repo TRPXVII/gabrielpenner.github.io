@@ -1,5 +1,6 @@
 ---
 layout: page
-title: Book Outlines
+title: Book Summaries
 ---
 
+[The Science of Energy](./scienceofenergy/)
