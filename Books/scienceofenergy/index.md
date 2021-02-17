@@ -21,7 +21,7 @@ I would highly recommend this book to anyone interested in learning more about h
 
 - The current energy usage of the world is 18 terawatts, or 18,000,000,000,000 watts, a huge amount of energy.
 
-- In 2014 the major sources of electricity in the US were: coal (39%), natural gas (27%), nuclear (19%), hydro (6%), wind (4.4%), biomass (1.7%), petroleum (1%), solar (0.4%), and geothermal (0.4%). The United States is not representative of the world though, of which biomass is still the dominant form of energy for half the planets.
+- In 2014 the major sources of electricity in the US were: coal (39%), natural gas (27%), nuclear (19%), hydro (6%), wind (4.4%), biomass (1.7%), petroleum (1%), solar (0.4%), and geothermal (0.4%). The United States is not representative of the world though, of which biomass is still the dominant form of energy for half the planets energy needs.
 
 Note: This doesn't mean that biomass makes up half the world’s energy production, only that half the world still relies on biomass for their energy needs. This means that about half the world still burns carbon-based matter for things like heating, as opposed to industrialized nations that can use natural gas.
 
