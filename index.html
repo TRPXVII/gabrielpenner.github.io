@@ -17,13 +17,19 @@
   <body>
     
       <div id="header">
-        <nav>
+        <nav class="navbar">
           
-	  <li class="title"><a href="/about.html#contact">Contact</a></li>
-          <li class="title"><a href="/about.html">About</a></li>
-          <li class="title"><a href="/Books/">Book Summaries</a></li>
-	  <li class="title"><a href="https://github.com/TRPXVII">Projects</a></li>
-          <li class="title"><a href="/Posts/">Posts</a></li>
+	 <a href="/about.html#contact">Contact</a>
+         <a href="/about.html">About</a>
+         <div class="dropdown">
+		  <button class="dropbtn">Books</button>
+		  <div class="drop-content">
+			  <a href="/Books/Summaries/">Summaries</a>
+			  <a href="/Books/Reading/">What I'm Reading</a>
+		  </div>
+	 </div>
+	 <a href="https://github.com/TRPXVII">Projects</a>
+         <a href="/Posts/">Posts</a>
 	  
 	</nav>
       </div><!-- end header -->
