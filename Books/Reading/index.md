@@ -79,7 +79,7 @@ Understanding Complexity - Scott E. Page & The Great Courses
 
 The War on Normal People - Andrew Yang
 
-Your Deceptive Mind: A Scientific Guide to Critial Thinking Skills - Steven Novella & The Great Courses
+Your Deceptive Mind: A Scientific Guide to Critical Thinking Skills - Steven Novella & The Great Courses
 
 ## Future Reading 
 
